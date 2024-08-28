@@ -1,7 +1,10 @@
+body{
+    margin: 25px;
+}
 header{
     background-color: black;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
 }
 nav > ul> li{
     display: inline;
@@ -30,6 +33,15 @@ img{border: 1px solid #ddd;
     display: flow-root;
     align-items: center;
 
+}
+article > footer{
+    background-color: white;
+    text-align: left;
+}
+
+.link a{
+    color: aqua;
+    text-decoration: none;
 }
 
 footer{
