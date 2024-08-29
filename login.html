@@ -4,13 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login From</title>
+    <style>
+        body{
+            background-color: aqua;
+            margin: 20px;
+            text-align: justify ;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        fieldset{
+            margin: 20px 20px 20px;
+            padding: 20px;
+            background-color: aquamarine;
+            box-shadow: 10px 10px 10px black;
+        }
+    </style>
 </head>
 <body>
     <header>
 
     </header>
     <main>
-        
+        <section>
+            <form>
+                <div>
+                    <h2>Please fill up the form</h2>
+                    <label for="name">Name:
+                        <input type="text" name="" id="name">
+                    </label>
+                    <label for="Email">Email
+                        <input type="email" name="" id="email">
+                    </label>
+                    <label for="password">Password
+                        <input type="password" name="" id="password">
+                    </label>
+                </div>
+                
+                <fieldset>
+                    <legend>Your Subject</legend>
+                    <label for="bangla">
+                        <input type="checkbox" name="" id="bangla">Bangla
+                    </label>
+                    <label for="english">
+                        <input type="checkbox" name="" id="english">English
+                    </label>
+                    <label for="math">
+                        <input type="checkbox" name="" id="bangla">Math
+                    </label>
+                    <label for="ict">
+                        <input type="checkbox" name="" id="bangla">Ict
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <Legend>Your Gender</Legend>
+                    <label for="male">
+                        <input type="radio" name="gender" id="male">Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" name="gender" id="female">Female
+                    </label>
+                    <label for="other">
+                        <input type="radio" name="gender" id="other">Other
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Writing your commit</legend>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </main>
 </body>
 </html>
