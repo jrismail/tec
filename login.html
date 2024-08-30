@@ -6,7 +6,6 @@
     <title>Login From</title>
     <style>
         body{
-            background-color: aqua;
             margin: 20px;
             text-align: justify ;
         }
@@ -21,10 +20,20 @@
             box-shadow: 10px 10px 10px black;
         }
     </style>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
@@ -72,6 +81,22 @@
                 <fieldset>
                     <legend>Writing your commit</legend>
                     <textarea name="" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+                <fieldset>
+                    <label for="country">Choise your Country</label>
+                    <select name="country" id="country">
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="nepal">Nepal</option>
+                        <option value="america">America</option>
+                        <option value="london">Londan</option>
+                    </select>
+                    <label for="language">Choise your Language</label>
+                    <select name="language" id="language">
+                        <option value="english">English</option>
+                        <option value="bangla">Bangla</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="chaina">Chaina</option>
+                    </select>
                 </fieldset>
                 <input type="reset" value="Reset">
                 <input type="submit" value="Submit">

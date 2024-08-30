@@ -3,14 +3,14 @@ body{
     padding: 0px;
 }
 header{
-    background-color: black;
+    background-color: aqua;
     padding: 20px;
     border-radius: 0px 0px 20px 20px;
 }
 .blog{
     margin: 0px 20px;
 }
-nav > ul> li{
+/*nav > ul> li{
     display: inline;
     margin-right: 10px;
 
@@ -19,7 +19,7 @@ nav > ul> li{
 nav li > a{
     text-decoration: none;
     color: aqua;
-}
+}*/
 /*--main--*/
 main > .artical{
     background-color: white;
